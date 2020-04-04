@@ -1,0 +1,3 @@
+rootProject.name='ShloaderExample'
+include ':app'
+include ':shloader'
