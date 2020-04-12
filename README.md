@@ -5,7 +5,7 @@ Simple lib for loading glsl scripts from row directory
 
 # Example
 
-- No longer need to write scripts in code as `String()` make glsl-scripts in row dirctory:
+- No longer need to write scripts in code as `String()` make glsl-scripts in raw dirctory:
 
 <img width="1059" alt="Снимок экрана 2020-04-12 в 18 39 16" src="https://user-images.githubusercontent.com/17497471/79073083-2f3f6a80-7ced-11ea-8fc8-19a222381091.png">
 
