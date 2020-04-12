@@ -9,8 +9,8 @@ import java.io.InputStreamReader
 
 object Shloader {
 
-    fun loadShader(type: Int, source: Int, context: Context): Int {
-        val shader = GLES20.glCreateShader(type)
+    fun loadShader(shaderType: Int, source: Int, context: Context): Int {
+        val shader = GLES20.glCreateShader(shaderType)
         GLES20.glShaderSource(shader, readTextFromRaw(context, source))
         GLES20.glCompileShader(shader)
         return shader
